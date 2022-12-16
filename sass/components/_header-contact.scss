@@ -23,7 +23,7 @@
 }
 .contact__link {
   display: flex;
-  color: $text-color;
+  color: red;
   transition: color $duration $timing-function;
 
   &:hover,
