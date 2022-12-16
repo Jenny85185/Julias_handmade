@@ -136,7 +136,7 @@ img {
 }
 
 .mobile-menu-btn:hover, .mobile-menu-btn:focus {
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .mobile-menu {
@@ -163,7 +163,7 @@ img {
 
 .mobile-menu__close-btn:hover .mobile-menu__close-icon,
 .mobile-menu__close-btn:focus .mobile-menu__close-icon {
-  fill: #2196f3;
+  fill: #f321a3;
   cursor: pointer;
 }
 
@@ -205,15 +205,15 @@ img {
 
 .mobile-menu__link {
   position: relative;
-  color: #212121;
+  color: #f321a3;
 }
 
 .mobile-menu__link:hover, .mobile-menu__link:focus {
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .mobile-menu__link.current {
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .mobile-menu__tel-link {
@@ -221,7 +221,7 @@ img {
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #f321a3;
   text-decoration: none;
 }
 
@@ -257,7 +257,7 @@ img {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #f321a3;
   text-decoration: none;
 }
 
@@ -293,17 +293,17 @@ img {
 .navigation__link {
   position: relative;
   padding: 32px 0;
-  color: #212121;
+  color: #f321a3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation__link:hover, .navigation__link:focus {
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .navigation__link.current {
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .navigation__link.current::after {
@@ -312,7 +312,7 @@ img {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: #2196f3;
+  background-color: #f321a3;
   border-radius: 2px;
   bottom: 0;
   left: 0;
@@ -324,7 +324,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .logo--dark {
@@ -387,13 +387,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #757575;
+  color: #f321a3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact__link:hover, .contact__link:focus {
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .contact__icon {
@@ -403,14 +403,14 @@ img {
 
 .hero {
   display: block;
-  background-color: #2f303a;
+  background-color: #2b2727;
   text-align: center;
   max-width: 100%;
   height: 400px;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_m.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_m.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero/biser.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/biser.jpg);
   margin-left: auto;
   margin-right: auto;
   background-position: center;
@@ -420,8 +420,8 @@ img {
 @media screen and (min-width: 489px) {
   .hero {
     max-width: 768px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_t.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_t.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero/biser.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/biser.jpg);
   }
 }
 
@@ -431,8 +431,8 @@ img {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_d.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_d.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero/biser.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/biser.jpg);
   }
 }
 
@@ -465,7 +465,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: #fff;
-  background-color: #2196f3;
+  background-color: #f321a3;
   text-decoration: none;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -549,7 +549,7 @@ img {
 }
 
 .modal__button:hover, .modal__button:focus {
-  color: #2196f3;
+  color: #f321a3;
 }
 
 .modal__icon {
@@ -568,7 +568,7 @@ img {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #f321a3;
   margin-bottom: 12px;
 }
 
@@ -585,7 +585,7 @@ img {
 
 .form__input-svg:hover,
 .form__input-svg:focus + .icon {
-  fill: #2196f3;
+  fill: #f321a3;
 }
 
 .form__input-svg {
@@ -621,7 +621,7 @@ img {
 }
 
 .form__input:hover, .form__input:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid #f321a3;
 }
 
 .form__input-comment {
@@ -637,7 +637,7 @@ img {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  color: #212121;
+  color: #f321a3;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -647,7 +647,7 @@ img {
 }
 
 .form__input-comment:hover, .form__input-comment:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid #f321a3;
 }
 
 .form__input-comment::-webkit-input-placeholder {
@@ -683,7 +683,7 @@ img {
   margin: 0 auto;
   padding: 10px 55px;
   border-radius: 4px;
-  background-color: #2196f3;
+  background-color: #f321a3;
   color: #fff;
   cursor: pointer;
   font-weight: 700;
@@ -736,7 +736,7 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #2196f3;
+  background-color: #f321a3;
   border: none;
 }
 
@@ -747,7 +747,7 @@ img {
   display: block;
   width: 16px;
   height: 15px;
-  border: 2px solid #212121;
+  border: 2px solid #f321a3;
   border-radius: 2px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -760,17 +760,17 @@ img {
 }
 
 .checkbox:checked ~ .checkbox-icon-unchecked {
-  border-color: #2196f3;
+  border-color: #f321a3;
 }
 
 .checkbox:focus ~ .checkbox-icon-unchecked,
 .checkbox:hover ~ .checkbox-icon-unchecked {
-  border-color: #2196f3;
+  border-color: #f321a3;
 }
 
 .checkbox:focus:checked ~ .checkbox-icon-unchecked,
 .checkbox:hover:checked ~ .checkbox-icon-unchecked {
-  border-color: #212121;
+  border-color: #f321a3;
 }
 
 .checkbox {
@@ -808,7 +808,7 @@ img {
 }
 
 .checkbox-label-link {
-  color: #2196f3;
+  color: #f321a3;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
@@ -878,7 +878,7 @@ img {
 }
 
 .features__idea {
-  color: #212121;
+  color: #f321a3;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -933,8 +933,9 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #f321a3;
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .mission__mission-list {
@@ -996,7 +997,7 @@ img {
   line-height: 33px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #f321a3;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1069,7 +1070,7 @@ img {
 }
 
 .personal__name {
-  color: #212121;
+  color: #f321a3;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -1119,7 +1120,7 @@ img {
 }
 
 .social__link:hover, .social__link:focus {
-  background-color: #2196f3;
+  background-color: #f321a3;
 }
 
 .social__icon {
@@ -1139,7 +1140,7 @@ img {
   line-height: 33px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #f321a3;
   margin-bottom: 30px;
 }
 
@@ -1217,7 +1218,7 @@ img {
 }
 
 .partners__partners-link:hover, .partners__partners-link:focus {
-  border-color: #2196f3;
+  border-color: #f321a3;
 }
 
 .partners__partners-icons {
@@ -1228,11 +1229,11 @@ img {
 
 .partners__partners-link:hover .partners__partners-icons,
 .partners__partners-link:focus .partners__partners-icons {
-  fill: #2196f3;
+  fill: #f321a3;
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: #2b2727;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1378,7 +1379,7 @@ img {
 }
 
 .join__link:hover, .join__link:focus {
-  background-color: #2196f3;
+  background-color: #f321a3;
 }
 
 .join__icon {
@@ -1446,7 +1447,7 @@ img {
   padding: 10px 10px 10px 29px;
   border: none;
   border-radius: 4px;
-  background-color: #2196f3;
+  background-color: #f321a3;
   color: #fff;
   cursor: pointer;
   font-weight: 700;
@@ -1529,7 +1530,7 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #f321a3;
   cursor: pointer;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -1542,7 +1543,7 @@ img {
 
 .menu-nav__button:hover, .menu-nav__button:focus {
   color: #fff;
-  background-color: #2196f3;
+  background-color: #f321a3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -1558,7 +1559,7 @@ img {
 }
 
 .menu-nav__button-item > .active-btn {
-  background: #2196f3;
+  background: #f321a3;
   color: #fff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1688,7 +1689,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: #f321a3;
 }
 
 .project__type {

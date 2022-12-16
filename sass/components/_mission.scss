@@ -18,6 +18,7 @@
   letter-spacing: 0.03em;
   color: $nav-color;
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .mission__mission-list {
@@ -33,6 +34,7 @@
   position: relative;
   content: '';
   margin-right: 30px;
+  
 }
 
 .mission__mission-item:last-child {
